@@ -5,8 +5,6 @@ public class Main {
         printHelloWorld();
         LoopTheLoop loopTheLoop = new LoopTheLoop();
         loopTheLoop.run();
-
-
     }
 
     private static void printHelloWorld() {

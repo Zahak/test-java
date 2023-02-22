@@ -1,5 +1,7 @@
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
+
 import se.johannes.LoopTheLoop;
 
 import java.util.ArrayList;

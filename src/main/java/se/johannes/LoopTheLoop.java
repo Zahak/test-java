@@ -10,6 +10,7 @@ public class LoopTheLoop {
         this.defaultMessage = "Hello world!";
         this.messageUtil = new MessageUtil(defaultMessage);
     }
+
     public ArrayList<String> run() {
         ArrayList<String> allMessages = new ArrayList<>();
 
@@ -50,7 +51,7 @@ public class LoopTheLoop {
         ArrayList<String> messages = new ArrayList<>();
 
         System.out.println("For loop");
-        for(int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 20; i++) {
             messageUtil.setMessage(defaultMessage + " " + i);
             messages.add(messageUtil.printMessage());
         }

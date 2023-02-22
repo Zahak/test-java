@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d6d853c-e6f3-4d15-9ffa-8445ff6e473e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringsFunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/johannes/LoopTheLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/johannes/LoopTheLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/johannes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/johannes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoopTheLoopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoopTheLoopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringsFunTest.compareStringsWithStringBuilder">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.johannes.Main" />
+      <module name="TestJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.johannes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in TestJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringsFunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,16 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsFunTest.compareStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringsFunTest" />
-      <option name="METHOD_NAME" value="compareStrings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringsFunTest.compareStringsWithStringBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,23 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsFunTest.compareStringsWithTwist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringsFunTest" />
-      <option name="METHOD_NAME" value="compareStringsWithTwist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in TestJava" />
         <item itemvalue="JUnit.StringsFunTest.compareStringsWithStringBuilder" />
         <item itemvalue="JUnit.StringsFunTest" />
         <item itemvalue="JUnit.StringsFunTest.compareStringInterns" />
-        <item itemvalue="JUnit.StringsFunTest.compareStringsWithTwist" />
-        <item itemvalue="JUnit.StringsFunTest.compareStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677094865858</updated>
-      <workItem from="1677094867246" duration="6140000" />
+      <workItem from="1677094867246" duration="6673000" />
     </task>
     <servers />
   </component>
