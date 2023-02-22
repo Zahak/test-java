@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d6d853c-e6f3-4d15-9ffa-8445ff6e473e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/johannes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/johannes/MessageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/johannes/LoopTheLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopTheLoopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/johannes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/johannes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MessageUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in TestJava">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.johannes.Main" />
       <module name="TestJava" />
@@ -77,29 +74,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in TestJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testPrintMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoopTheLoopTest.testLoops" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testPrintMessage" />
+      <option name="MAIN_CLASS_NAME" value="LoopTheLoopTest" />
+      <option name="METHOD_NAME" value="testLoops" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testSetNewMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJava" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="MAIN_CLASS_NAME" value="MessageUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageUtilTest.testSetNewMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MessageUtilTest" />
       <option name="METHOD_NAME" value="testSetNewMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TestJava" />
+        <item itemvalue="JUnit.LoopTheLoopTest.testLoops" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testSetNewMessage" />
-        <item itemvalue="JUnit.MainTest.testPrintMessage" />
+        <item itemvalue="JUnit.MessageUtilTest" />
+        <item itemvalue="JUnit.MessageUtilTest.testSetNewMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677094865858</updated>
-      <workItem from="1677094867246" duration="1269000" />
+      <workItem from="1677094867246" duration="4168000" />
     </task>
     <servers />
   </component>

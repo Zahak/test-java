@@ -3,7 +3,7 @@ import se.johannes.MessageUtil;
 
 import static org.junit.Assert.assertEquals;
 
-public class MainTest {
+public class MessageUtilTest {
     String message1 = "Hello world!";
     String message2 = "Foo bar";
 
